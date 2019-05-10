@@ -1,5 +1,5 @@
 {% set name = "performance" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7931f4f5f353bda3a58236208e7b1104813f610a23248eee4c4d9d091e923693
+  sha256: 35fc9028337eada5f816f39fe6fae6875beb925d4db828e4d74a7ae468a05efb
 
 build:
   noarch: python
